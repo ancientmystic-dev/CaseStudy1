@@ -1,0 +1,197 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- HEAD -->
+
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head id="top">
+    <meta charset="UTF-8">
+    <title>Project Title · </title>
+    <meta name="Description" content="Kumar's Design Portfolio">
+<link rel = "icon" href = "images/128.svg" type = "image/x-icon">
+    <!-- Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- CSS Links --> 
+
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/hover-min.css">
+
+    <!-- Javascript -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script>  
+        /* Back button appears on scroll */
+        $(window).scroll(function(){
+          if ($(this).scrollTop() > 20) {
+              $('.back').removeClass('no-display');
+          } else {
+              $('.back').addClass('no-display');
+          }
+        });
+        
+        /* Forward button appears on scroll */
+        $(window).scroll(function(){
+          if ($(this).scrollTop() > 20) {
+              $('.forward').removeClass('no-display');
+          } else {
+              $('.forward').addClass('no-display');
+          }
+        });
+        
+        /* Scroll button appears on scroll */
+        $(window).scroll(function(){
+          if ($(this).scrollTop() > 20) {
+              $('.scroll-to-top').removeClass('no-display');
+          } else {
+              $('.scroll-to-top').addClass('no-display');
+          }
+        });
+
+        /* Smooth Scrolling */
+        $(document).ready(function(){
+          $("a").on('click', function(event) {
+            if (this.hash !== "") {
+                event.preventDefault();
+                var hash = this.hash;
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 500, function(){
+                    window.location.hash = hash;
+                });
+            }
+          });
+        });
+    </script>
+
+    <!-- Webpage Icons -->
+   
+   
+    
+</head>
+
+<body class="grid">
+    <!-- Header -->
+    <header class="c12">
+        <!-- Nav -->
+        <div class="hero">
+            <div class="header">
+                <h5 class="option"><a href="https://kumarr.netlify.app/">⬅ Back Home</a></h5>
+                
+                <nav class="nav">
+                    <h5 class="option"><a href="https://kumarr.netlify.app/">Works</a></h5>
+                    <h5 class="option"><a href="https://kumarr.netlify.app/">Articles</a></h5>
+                    <h5 class="option"><a href="https://www.notion.so/About-Me-255b6fe708d147bf83c03c64fea4e837">About</a></h5>
+                    <h5 class="option"><a href="https://www.notion.so/Resume-e7735724685d4258bfcaac653213e60f">Resume</a></h5>
+                </nav>
+            </div>
+
+            <!-- Title -->
+            <div class="title">
+                <h1 class="content-web emoji">🍉</h1>
+                <div>
+                    <h1 class="content-mobile">🍉</h1>
+                    <h1>Title.<br>
+                    <span class="medium patch-title">One line Description.</span></h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- **DOUBLE SIDED DISPLAY** -->
+ 
+    </div>
+
+    <div class="c6 divider"></div>
+
+    <div class="c6">
+        <div class="section">
+            <img alt="Sample mockups" src="images/Cover.png" class="img">
+            <h5 class="subtitle">Process Name</h5>
+            <h2 class="patch-title">Description One Liner</h2>
+
+            <p>
+                <a href="Link" target="_blank" rel="noopener" class="link patch-link">Lorem Ipsum</a> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            </p>
+            <br><br>
+            <p>
+                It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+
+            <ol>
+                <li>Numbered List Item 1.</li>
+                <li>Numbered List Item 2.</li>
+            </ol>
+            <img alt="Sample mockups" src="images/Cover.png" class="img">
+                <p>
+                To show a list of Bulleted list:
+            </p>
+            <ul>
+                <li>unordered (bulleted) list. 1</li>
+                <li>unordered (bulleted) list. 2</li>
+                <li>Cunordered (bulleted) list. 3</li>
+            </ul>
+
+
+        </div>
+
+ 
+    </div>
+    <div class="c6 divider"></div>
+
+    <div class="c6">
+        <div class="section">
+            
+            <h5 class="subtitle">Process Name</h5>
+            <h2 class="patch-title">Description One Liner</h2>
+
+            <p>
+                <a href="Link" target="_blank" rel="noopener" class="link patch-link">Lorem Ipsum</a> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            </p>
+            <br><br>
+            <p>
+                It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+
+            <ol>
+                <li>Numbered List Item 1.</li>
+                <li>Numbered List Item 2.</li>
+            </ol>
+            <img alt="Sample mockups" src="images/Cover.png" class="img">
+                <p>
+                To show a list of Bulleted list:
+            </p>
+            <ul>
+                <li>unordered (bulleted) list. 1</li>
+                <li>unordered (bulleted) list. 2</li>
+                <li>Cunordered (bulleted) list. 3</li>
+            </ul>
+
+
+        </div>
+
+ 
+    </div>
+    
+    <footer class="c12 grid">
+      
+
+        <div class="c6-left">
+          <div class="hero">
+            <div class="header">
+                
+               
+                <nav class="nav">
+                    <center><h4 class="option"><a href="https://kumarr.netlify.app/">⬅ Back to home Page</a></h4>
+                    
+                    <h4 class="option"><a href="https://kumarr.netlify.app/">Next Case study ➡</a></h4></center>
+                </nav>
+            </div>
+    </footer>
+    
+</body>
+
+
+
+</html>

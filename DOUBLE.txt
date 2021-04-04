@@ -1,0 +1,38 @@
+<!--<div class="c12 main">
+        <div class="summary">
+            <div class="summary-section">
+                <div class="section summary-item">
+                    <h5 class="subtitle">Overview</h5>
+                    <p>
+                        Designing core user experience, incentives, refill, and chat features to reward users for high medication adherence.
+                    </p>
+                </div>
+
+                <div class="section summary-item">
+                    <h5 class="subtitle">Roles</h5>
+                    <p>Product Designer</p>
+                </div>
+
+                <div class="section summary-item">
+                    <h5 class="subtitle">Team</h5>
+                    <p>
+                        <a href="https://www.linkedin.com/in/andrewaertker/" target="_blank" rel="noopener" class="link patch-link">Andrew Aertker</a>, Co-founder
+                    </p>
+                    <p>
+                        <a href="https://www.linkedin.com/in/gavin-buchanan/" target="_blank" rel="noopener" class="link patch-link">Gavin Buchanan</a>, Co-founder
+                    </p>
+                    <p>
+                        <a href="https://www.linkedin.com/in/michael-bryce-11a782a5/" target="_blank" rel="noopener" class="link patch-link">Michael Bryce</a>, Software Engineer
+                    </p>
+                    <p>
+                        <a href="https://www.linkedin.com/in/nathan-dullea/" target="_blank" rel="noopener" class="link patch-link">Nathan Dullea</a>, Software Engineer
+                    </p>
+                </div>
+
+                <div class="section summary-item">
+                    <h5 class="subtitle">Timeline</h5>
+                    <p>April 2020 to May 2020 | Oct 2020 to Nov 2020</p>
+                </div> 
+            </div>
+            <img alt="PatchCap and PatchRx app" src="work/patch/patch-summary.png" class="img summary-section">
+        </div>-->
